@@ -9,5 +9,6 @@ valor_b = int(input("Digite outro número:"))
 if valor_a == valor_b:
     valor_c = valor_a + valor_b
 else: 
-    valor_a * valor_b
-    print(f"O resultado é: {valor_c} ")
+   valor_c = valor_a * valor_b
+
+print(f"O valor de C é: {valor_c}")
