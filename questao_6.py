@@ -9,12 +9,14 @@ nota_dois = float(input("Digite sua segunda nota: "))
  
 soma = (nota_um + nota_dois) /2
 
-if soma > 6:
- print("Parabéns você foi aprovado")
+if soma >= 6:
+ print("Parabéns você foi aprovado.")
+ print(f"Sua media é: {soma}")
 
-elif soma < 4:
- print("Você está em recuperação")
+elif soma >= 4:
+ print("Você está em recuperação.")
+ print(f"Sua media é: {soma}")
 
 else:
- soma < 3,9
- print("Você está em recuperação😢🤦‍♀️")
+ print("Você está reprovado.")
+ print(f"Sua media é: {soma}")
